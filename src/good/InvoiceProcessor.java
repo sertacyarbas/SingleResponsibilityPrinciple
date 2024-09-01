@@ -1,6 +1,5 @@
 package good;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import good.invoice.EmailSender;
