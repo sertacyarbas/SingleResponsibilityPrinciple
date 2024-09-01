@@ -10,7 +10,10 @@ Proje, iki ana klasör altında organize edilmiştir:
 - **good**: SRP prensibine uygun olarak yeniden yapılandırılmış yapıyı temsil eder.
 
 ### Klasör ve Dosya Yapısı
-src ├── bad │ ├── Application.java │ └── InvoiceProcessor.java └── good ├── invoice │ ├── impl │ │ ├── EmailSender.java │ │ ├── InvoiceCreator.java │ │ ├── InvoiceSaver.java │ │ ├── OrderValidator.java │ │ ├── PdfGenerator.java │ │ └── TotalAmountCalculator.java │ ├── Application.java │ ├── InvoiceContext.java │ └── InvoiceProcessor.java └── model ├── Customer.java ├── Invoice.java └── Order.java
+src/ ├── bad/ │
+├── Application.java │ └── InvoiceProcessor.java └── good/ ├── invoice/ │ ├── impl/ │ │ ├── EmailSender.java │ │ ├── InvoiceCreator.java │ │ ├── InvoiceSaver.java │ │ ├── OrderValidator.java │ │ ├── PdfGenerator.java │ │ └── TotalAmountCalculator.java │ ├── Application.java │ ├── InvoiceContext.java │ └── InvoiceProcessor.java └── model/ ├── Customer.java ├── Invoice.java └── Order.java
+![image](https://github.com/user-attachments/assets/bbfc4f27-c379-4b07-9edf-7776bc72bcd8)
+
 
 ### Klasörlerin Açıklamaları
 
