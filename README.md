@@ -10,8 +10,7 @@ Proje, iki ana klasör altında organize edilmiştir:
 - **good**: SRP prensibine uygun olarak yeniden yapılandırılmış yapıyı temsil eder.
 
 ### Klasör ve Dosya Yapısı
-![image](https://github.com/user-attachments/assets/8a4c20f6-383e-419e-8663-b36d19401dd1)
-
+![image](https://github.com/user-attachments/assets/f5464b7a-de3a-4419-82a7-76660f31ab4b)
 
 ### Klasörlerin Açıklamaları
 
