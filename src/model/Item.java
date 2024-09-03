@@ -1,14 +1,14 @@
 package model;
 
-public class Customer {
+public class Item {
     private String id;
     private String name;
-    private String email;
+    private double price;
 
-    public Customer(String id, String name, String email) {
+    public Item(String id, String name, double price) {
         this.id = id;
         this.name = name;
-        this.email = email;
+        this.price = price;
     }
 
     public String getId() {
@@ -19,7 +19,7 @@ public class Customer {
         return name;
     }
 
-    public String getEmail() {
-        return email;
+    public double getPrice() {
+        return price;
     }
 }
