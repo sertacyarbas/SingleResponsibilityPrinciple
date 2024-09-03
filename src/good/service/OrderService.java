@@ -1,12 +1,12 @@
 package good.service;
 
 import good.service.order.EmailSender;
+import good.service.order.OrderContext;
 import good.service.order.OrderSaver;
 import good.service.order.OrderValidator;
 import good.service.order.PriceCalculator;
 import good.service.order.StockChecker;
 import model.Order;
-import model.OrderContext;
 
 public class OrderService {
     private final OrderValidator orderValidator;

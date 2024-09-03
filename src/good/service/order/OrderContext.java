@@ -1,4 +1,6 @@
-package model;
+package good.service.order;
+
+import model.Order;
 
 public class OrderContext {
     private Order order;

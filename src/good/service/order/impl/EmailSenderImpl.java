@@ -1,8 +1,8 @@
 package good.service.order.impl;
 
 import good.service.order.EmailSender;
+import good.service.order.OrderContext;
 import model.Order;
-import model.OrderContext;
 
 public class EmailSenderImpl implements EmailSender {
     @Override

@@ -1,7 +1,7 @@
 package good.service.order.impl;
 
+import good.service.order.OrderContext;
 import good.service.order.StockChecker;
-import model.OrderContext;
 
 public class StockCheckerImpl implements StockChecker {
     @Override

@@ -1,8 +1,8 @@
 package good.service.order.impl;
 
+import good.service.order.OrderContext;
 import good.service.order.OrderValidator;
 import model.Order;
-import model.OrderContext;
 
 public class OrderValidatorImpl implements OrderValidator {
     @Override
