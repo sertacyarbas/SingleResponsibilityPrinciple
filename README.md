@@ -10,15 +10,16 @@ Proje, iki ana klasör altında organize edilmiştir:
 - **good**: SRP prensibine uygun olarak yeniden yapılandırılmış yapıyı temsil eder.
 
 ### Klasör ve Dosya Yapısı
-![image](https://github.com/user-attachments/assets/a9e6dbf4-5786-45ae-a629-fd4a2dca410d)
+![image](https://github.com/user-attachments/assets/f14072ae-94be-49ae-bf8f-fdcf8998219c)
+
 
 ### Klasörlerin Açıklamaları
 
-- **bad**: Bu klasörde, `InvoiceProcessor.java` sınıfı çok sayıda sorumluluğu üstlenmektedir. Bu yapı, SRP'yi ihlal eden bir örnek teşkil eder.
+- **bad**: Bu klasörde, `OrderService.java` sınıfı çok sayıda sorumluluğu üstlenmektedir. Bu yapı, SRP'yi ihlal eden bir örnek teşkil eder.
   
-- **good**: Bu klasörde, SRP'ye uygun olarak yeniden yapılandırılmış bir yapıyı bulabilirsiniz. `invoice/impl` alt klasöründe her sınıf yalnızca bir sorumluluğa sahiptir. Örneğin, `EmailSender.java` sadece e-posta gönderimiyle ilgilenir, `InvoiceCreator.java` ise sadece fatura oluşturma işlemiyle ilgilenir.
+- **good**: Bu klasörde, SRP'ye uygun olarak yeniden yapılandırılmış bir yapıyı bulabilirsiniz. `order/impl` alt klasöründe her sınıf yalnızca bir sorumluluğa sahiptir. Örneğin, `EmailSender.java` sadece e-posta gönderimiyle ilgilenir, `OrderSaver.java` ise sadece siparişi veritabanına kaydetme işlemiyle ilgilenir.
 
-- **model**: Bu klasör, fatura işlemlerinde kullanılan `Customer`, `Invoice` ve `Order` gibi modelleri içerir.
+- **model**: Bu klasör, sipariş işlemlerinde kullanılan `Customer`, `Item` ve `Order` modellerini içerir.
 
 ## Nasıl Çalıştırılır
 
@@ -28,7 +29,7 @@ SRP'nin ihlal edildiği yapıyı çalıştırmak için `bad/Application.java` do
 
 ### SRP'ye Uygun Örnek (good)
 
-SRP prensibine uygun yapıyı görmek için `good/invoice/Application.java` dosyasını çalıştırın. Bu yapı, her sınıfın sadece tek bir sorumluluğa sahip olduğu daha modüler ve sürdürülebilir bir yapı sunar.
+SRP prensibine uygun yapıyı görmek için `good/Application.java` dosyasını çalıştırın. Bu yapı, her sınıfın sadece tek bir sorumluluğa sahip olduğu daha modüler ve sürdürülebilir bir yapı sunar.
 
 ## Neden SRP?
 
